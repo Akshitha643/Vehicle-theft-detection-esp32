@@ -71,10 +71,9 @@ void sendSMS(String msg) {
   delay(3000);
 }
 
-// ---------------- LOOP --------------------
 void loop() {
 
-  // ----------- KEYPAD HANDLING ------------
+  
   char key = keypad.getKey();
 
   if (key) {
